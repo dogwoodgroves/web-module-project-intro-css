@@ -1,3 +1,61 @@
-body{
-    background-color:hotpink;
+body {padding:20px;
 }
+.container {
+
+}
+nav a{border: 1px solid lightgray;
+    margin: 0 50px;
+    padding: 10px;
+    display: inline-block;
+    list-style-type:none;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 30px;
+    text-align:center;
+    width:100px;
+}
+.navigation{letter-spacing:1.5px}
+
+.navigation .plan {background-color:#FF764E;
+}
+.navigation .learn {background-color:#5eD3EB;
+}
+.navigation .involved{background-color:#FFCD69;
+}
+.headerimg {width:150px;
+    display: flex;
+    border-radius: 50%;
+    padding: 10px;
+}
+.h1 {font-size:200rem;}
+.about{display:flex;
+}
+.intro{color:white;
+    background:tan;
+    text-align: center;}
+.firetext{text-align: center;
+    width: 200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.reservations{text-align: center;
+    width: 200px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.fire{width:80px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.van{width:80px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;  
+}
+.footerimg{max-width:auto;
+    max-height:20rem;
+}
+footer {background-color:cornsilk;
+padding-top:15px;} 
